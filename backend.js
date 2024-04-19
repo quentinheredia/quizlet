@@ -7,6 +7,7 @@ const resetButton = document.getElementById("reset");
 const quizPics = "quiz_pictures.json";
 const quiz = "quiz.json";
 const NET2012 = "NET2012_EXAM.json";
+const NET2007 = "NET2007_Exam_Practice.json";
 
 let questionsPerPage = 10;
 let startIndex = 0;
@@ -337,7 +338,7 @@ if (submitButton && nextButton) {
   async function initializeQuiz() {
     // Put the quiz .json filename here
     // Quiz Name
-    const loadedQuestions = await loadQuizFromJSON(NET2012);
+    const loadedQuestions = await loadQuizFromJSON(NET2007);
     console.log(loadedQuestions);
     currentQuestionIndex = startIndex;
     console.log("Currently on Question: ", currentQuestionIndex);
