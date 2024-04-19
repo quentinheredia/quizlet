@@ -1,0 +1,224 @@
+{
+    "questions": [
+        {
+            "question": "1. A/an ________ signal is a continuously varying electromagnetic wave that may be propagated over a variety of media, depending on spectrum. Examples are wire media and fiber optic cable.",
+            "options": {
+                "a": "Digital.",
+                "b": "Analog.",
+                "c": "Periodic.",
+                "d": "Asynchronous."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "2. A key parameter that characterizes any electromagnetic signal is ________, which is the width of the range of frequencies that comprises the signal.",
+            "options": {
+                "a": "Wavelength.",
+                "b": "Fundamental frequency.",
+                "c": "Bandwidth.",
+                "d": "None of these."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "3. Signal attenuation (in unguided mediums) increases with _______ for the same distance.",
+            "options": {
+                "a": "Lower frequencies.",
+                "b": "Higher frequencies.",
+                "c": "Multiplexing several channels on the same medium.",
+                "d": "Nothing."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "4. In ________, the signal reflect/refract on higher ionized layer of Earth's atmosphere and on surface, allowing it to travel great distances by going back and forth in hops.",
+            "options": {
+                "a": "Ground propagation.",
+                "b": "Ionosphere reflection.",
+                "c": "Troposphere scattering.",
+                "d": "Satellite transmission."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "5. To get less errors while maintaining the same bandwidth of the transmission, you should ______.",
+            "options": {
+                "a": "Increase the Eb /N0.",
+                "b": "Decrease the Eb /N0.",
+                "c": "Increase the data rate (R).",
+                "d": "Change the transmission medium."
+            },
+            "answer": "a"
+        },
+        {
+            "question": "6. In practical transmission systems, the calculation of the path loss uses a \"correction\" factor that counts for the _______.",
+            "options": {
+                "a": "Environment (e.g., in-buildings, urban area, etc.) and channel conditions (e.g., multipath distortion, crosstalk, scattering, etc.)",
+                "b": "Wavelength of the carrier signal.",
+                "c": "Distance between the transmitter and receiver.",
+                "d": "Thermal Noise."
+            },
+            "answer": "a"
+        },
+        {
+            "question": "7. A differential signal encoding is _________.",
+            "options": {
+                "a": "When data are represented by differential equations.",
+                "b": "When data changes discreetly in time between pre-defined levels.",
+                "c": "When data are represented by changes rather than values (levels).",
+                "d": "When data continuously changes between positive and negative levels."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "8. Nyquist rate is ______.",
+            "options": {
+                "a": "The maximum channel capacity, given the SNR of the signal.",
+                "b": "The minimum required sampling rate of an analog signal, at which it can be retrieved back to its original format without errors.",
+                "c": "The same as the modulation rate but for analog signals.",
+                "d": "None of those."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "9. In FHSS, ________.",
+            "options": {
+                "a": "Every symbol will be represented by several bits in the transmitted signal.",
+                "b": "The data is MUXed over frequency to allow several uses to access the same transmission medium.",
+                "c": "Every user will have his own user code that is used to spread-spectrum his transmission over the entire bandwidth.",
+                "d": "Symbols (or bits) will be transmitted by hopping between frequencies based on a spreading code."
+            },
+            "answer": "d"
+        },
+        {
+            "question": "10. Traditionally, ______ is used alongside FHSS.",
+            "options": {
+                "a": "MPSK.",
+                "b": "MFSK.",
+                "c": "QAM.",
+                "d": "ASK."
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What is the primary benefit of using Frequency Hopping Spread Spectrum (FHSS) in communications?",
+            "options": {
+                "a": "To reduce the transmission power required",
+                "b": "To increase the data rate of transmission",
+                "c": "To enhance security by making signals more difficult to intercept and jam",
+                "d": "To simplify the protocol requirements"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "How does the Hamming Code ensure error detection and correction?",
+            "options": {
+                "a": "By using parity bits to check the integrity of data segments",
+                "b": "By encoding data using a minimum distance of 3",
+                "c": "By transmitting data without any additional bits",
+                "d": "By increasing the bandwidth of the transmission"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "In polynomial division for CRC, what is typically the result of dividing message polynomial f(X) by generator polynomial g(X)?",
+            "options": {
+                "a": "The quotient represents the original data",
+                "b": "The remainder becomes the CRC",
+                "c": "The generator polynomial is modified",
+                "d": "The message polynomial remains unchanged"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What is the impact of frame size on the efficiency of the Stop-and-Wait ARQ protocol?",
+            "options": {
+                "a": "Larger frame sizes generally increase the efficiency",
+                "b": "Frame size has no impact on the efficiency",
+                "c": "Smaller frame sizes improve the error detection capability",
+                "d": "Larger frame sizes decrease the bandwidth utilization"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "In a Direct Sequence Spread Spectrum (DSSS) system, how does the use of a spreading code affect the signal?",
+            "options": {
+                "a": "It compresses the signal's bandwidth",
+                "b": "It encodes the signal with error-correcting codes",
+                "c": "It spreads the signal over a wider frequency band",
+                "d": "It converts the digital signal to an analog format"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Which factor is crucial in determining the minimum data rate in a communication system to avoid buffer flooding?",
+            "options": {
+                "a": "The size of the transmit buffer only",
+                "b": "The processing speed of the receiver",
+                "c": "Propagation delay and data rate",
+                "d": "The encoding scheme used"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "What is the typical outcome of using Manchester encoding in data transmission?",
+            "options": {
+                "a": "Reduces the bit rate",
+                "b": "Eliminates the need for a clock signal",
+                "c": "Ensures that there are no errors in data transmission",
+                "d": "Provides synchronization by including transitions in each bit period"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "What is the key advantage of using cyclic redundancy check (CRC) in data communication?",
+            "options": {
+                "a": "It provides secure encryption of data.",
+                "b": "It ensures high data transmission speeds.",
+                "c": "It enables reliable detection of transmission errors.",
+                "d": "It compresses data to reduce bandwidth."
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Which method is used to calculate Hamming distance between two binary codewords?",
+            "options": {
+                "a": "Subtracting the number of ones in one codeword from the other",
+                "b": "Counting the number of positions in which the corresponding bits are different",
+                "c": "Multiplying the corresponding bits and summing the results",
+                "d": "Adding up the total bits and dividing by the number of codewords"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "In data communication, what does the term 'propagation delay' refer to?",
+            "options": {
+                "a": "The time it takes for a signal to be encoded onto a medium",
+                "b": "The delay caused by error checking during transmission",
+                "c": "The time it takes for a signal to travel from the sender to the receiver",
+                "d": "The delay in processing data at the receiver"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "What is the primary function of line encoding techniques such as NRZ-I and Manchester?",
+            "options": {
+                "a": "To compress the data being transmitted",
+                "b": "To enhance the security of the transmitted data",
+                "c": "To convert the digital data into a suitable form for transmission",
+                "d": "To increase the data transmission rate"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "What is the main benefit of using a stop-and-wait ARQ protocol in network communications?",
+            "options": {
+                "a": "It maximizes the throughput by sending multiple frames at once",
+                "b": "It simplifies the flow control by allowing only one frame on the link at a time",
+                "c": "It eliminates the need for acknowledgments",
+                "d": "It uses less bandwidth compared to other ARQ protocols"
+            },
+            "answer": "b"
+        }
+    ]
+}
