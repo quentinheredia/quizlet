@@ -1,0 +1,264 @@
+{
+    "questions": [
+        {
+            "question": "Who wrote 'The Catcher in the Rye'?",
+            "options": {
+                "a": "J.D. Salinger",
+                "b": "F. Scott Fitzgerald",
+                "c": "Ernest Hemingway",
+                "d": "Mark Twain"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Which country is famous for the pyramids?",
+            "options": {
+                "a": "Greece",
+                "b": "Italy",
+                "c": "Egypt",
+                "d": "Turkey"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who is the author of 'The Lord of the Rings'?",
+            "options": {
+                "a": "J.K. Rowling",
+                "b": "J.R.R. Tolkien",
+                "c": "C.S. Lewis",
+                "d": "George R.R. Martin"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What is the chemical symbol for iron?",
+            "options": {
+                "a": "Fe",
+                "b": "Ir",
+                "c": "In",
+                "d": "Fr"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Who painted 'The Last Supper'?",
+            "options": {
+                "a": "Leonardo da Vinci",
+                "b": "Pablo Picasso",
+                "c": "Vincent van Gogh",
+                "d": "Michelangelo"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Which planet is known as the Morning Star?",
+            "options": {
+                "a": "Mars",
+                "b": "Mercury",
+                "c": "Venus",
+                "d": "Jupiter"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who discovered America?",
+            "options": {
+                "a": "Christopher Columbus",
+                "b": "Amerigo Vespucci",
+                "c": "Vasco da Gama",
+                "d": "Ferdinand Magellan"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What is the largest desert in the world?",
+            "options": {
+                "a": "Gobi Desert",
+                "b": "Sahara Desert",
+                "c": "Arabian Desert",
+                "d": "Antarctica"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Who is the author of 'The Odyssey'?",
+            "options": {
+                "a": "Homer",
+                "b": "Virgil",
+                "c": "Aristotle",
+                "d": "Plato"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What is the largest continent by land area?",
+            "options": {
+                "a": "Africa",
+                "b": "North America",
+                "c": "Asia",
+                "d": "Europe"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who composed 'The Four Seasons'?",
+            "options": {
+                "a": "Johannes Brahms",
+                "b": "Antonio Vivaldi",
+                "c": "Wolfgang Amadeus Mozart",
+                "d": "Ludwig van Beethoven"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Which of the following is a noble gas?",
+            "options": {
+                "a": "Oxygen",
+                "b": "Nitrogen",
+                "c": "Helium",
+                "d": "Carbon dioxide"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who is the author of 'The Hitchhiker's Guide to the Galaxy'?",
+            "options": {
+                "a": "Douglas Adams",
+                "b": "Philip K. Dick",
+                "c": "Isaac Asimov",
+                "d": "Arthur C. Clarke"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Which continent is also a country?",
+            "options": {
+                "a": "Europe",
+                "b": "Africa",
+                "c": "Australia",
+                "d": "South America"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who was the first female Prime Minister of the United Kingdom?",
+            "options": {
+                "a": "Margaret Thatcher",
+                "b": "Theresa May",
+                "c": "Angela Merkel",
+                "d": "Hillary Clinton"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What is the chemical symbol for silver?",
+            "options": {
+                "a": "Si",
+                "b": "Sv",
+                "c": "Ag",
+                "d": "Sv"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who wrote 'Moby-Dick'?",
+            "options": {
+                "a": "Mark Twain",
+                "b": "Herman Melville",
+                "c": "Jules Verne",
+                "d": "Charles Dickens"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Which famous scientist formulated the theory of relativity?",
+            "options": {
+                "a": "Isaac Newton",
+                "b": "Albert Einstein",
+                "c": "Niels Bohr",
+                "d": "Galileo Galilei"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "What is the chemical symbol for sodium?",
+            "options": {
+                "a": "Sa",
+                "b": "So",
+                "c": "Sn",
+                "d": "Na"
+            },
+            "answer": "d"
+        },
+        {
+            "question": "Who painted 'The Persistence of Memory'?",
+            "options": {
+                "a": "Salvador Dalí",
+                "b": "Claude Monet",
+                "c": "Pablo Picasso",
+                "d": "Vincent van Gogh"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What is the chemical symbol for potassium?",
+            "options": {
+                "a": "P",
+                "b": "Po",
+                "c": "K",
+                "d": "Ka"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who is the author of 'Frankenstein'?",
+            "options": {
+                "a": "Mary Shelley",
+                "b": "Bram Stoker",
+                "c": "Edgar Allan Poe",
+                "d": "H.G. Wells"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "What is the capital of Australia?",
+            "options": {
+                "a": "Sydney",
+                "b": "Melbourne",
+                "c": "Canberra",
+                "d": "Brisbane"
+            },
+            "answer": "c"
+        },
+        {
+            "question": "Who is the author of 'The Diary of a Young Girl'?",
+            "options": {
+                "a": "Anne Frank",
+                "b": "Elie Wiesel",
+                "c": "Viktor Frankl",
+                "d": "Primo Levi"
+            },
+            "answer": "a"
+        },
+        {
+            "question": "Which planet is closest to the Sun?",
+            "options": {
+                "a": "Venus",
+                "b": "Mercury",
+                "c": "Mars",
+                "d": "Earth"
+            },
+            "answer": "b"
+        },
+        {
+            "question": "Who composed 'The Nutcracker'?",
+            "options": {
+                "a": "Johann Sebastian Bach",
+                "b": "Pyotr Ilyich Tchaikovsky",
+                "c": "Ludwig van Beethoven",
+                "d": "Franz Schubert"
+            },
+            "answer": "b"
+        }
+    ]
+}

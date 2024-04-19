@@ -1,0 +1,154 @@
+{
+    "questions": [
+        {
+            "question": "What is the main purpose of DHCP in a network?",
+            "options": {
+                "a": "To encrypt network traffic",
+                "b": "To dynamically assign IP addresses to devices",
+                "c": "To filter malicious content from the internet",
+                "d": "To provide a secure connection to the network"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "Which ports does DHCP use for its operation?",
+            "options": {
+                "a": "80 and 443",
+                "b": "20 and 21",
+                "c": "53 and 54",
+                "d": "67 for the server and 68 for the client"
+            },
+            "correctAnswer": "d"
+        },
+        {
+            "question": "What is the purpose of the Network Time Protocol (NTP)?",
+            "options": {
+                "a": "To synchronize the time of computers over a network",
+                "b": "To provide a backup for system files",
+                "c": "To assign IP addresses to devices on a network",
+                "d": "To monitor network traffic"
+            },
+            "correctAnswer": "a"
+        },
+        {
+            "question": "In NTP's hierarchy, what is a Stratum 0 device known as?",
+            "options": {
+                "a": "Primary reference server",
+                "b": "Secondary reference server",
+                "c": "Tertiary server",
+                "d": "Quaternary server"
+            },
+            "correctAnswer": "a"
+        },
+        {
+            "question": "How does a DHCP client initially communicate its need for an IP address to the network?",
+            "options": {
+                "a": "It sends a DHCPOFFER broadcast",
+                "b": "It sends a DHCPREQUEST unicast",
+                "c": "It sends a DHCPDISCOVER broadcast",
+                "d": "It sends a DHCPACK multicast"
+            },
+            "correctAnswer": "c"
+        },
+        {
+            "question": "What are some advantages of using DHCP in a network?",
+            "options": {
+                "a": "Increases network security",
+                "b": "Reduces network bandwidth usage",
+                "c": "Simplifies IP address management",
+                "d": "Decreases network latency"
+            },
+            "correctAnswer": "c"
+        },
+        {
+            "question": "What is the role of DHCPREQUEST in the DHCP process?",
+            "options": {
+                "a": "It offers IP addresses to DHCP clients",
+                "b": "It requests an IP address from the DHCP server",
+                "c": "It acknowledges the receipt of an IP address",
+                "d": "It discovers available DHCP servers on the network"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "Why is NTP important for network security?",
+            "options": {
+                "a": "It encrypts network traffic",
+                "b": "It ensures accurate time synchronization for security logs and events",
+                "c": "It filters malicious content from the internet",
+                "d": "It provides secure authentication for network devices"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "What is the purpose of NTP authentication?",
+            "options": {
+                "a": "To encrypt NTP traffic",
+                "b": "To prevent unauthorized access to NTP servers",
+                "c": "To synchronize NTP servers with external time sources",
+                "d": "To prioritize time synchronization between network devices"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "How does NTP ensure fault tolerance and scalability?",
+            "options": {
+                "a": "By using a hierarchical, stratum-based system",
+                "b": "By encrypting time synchronization data",
+                "c": "By prioritizing time synchronization for critical network devices",
+                "d": "By filtering out unreliable time sources"
+            },
+            "correctAnswer": "a"
+        },
+        {
+            "question": "What are the primary differences between DHCP and the earlier Bootstrap Protocol (BOOTP)?",
+            "options": {
+                "a": "DHCP supports static IP address allocation, while BOOTP only supports dynamic allocation.",
+                "b": "DHCP operates on ports 67 and 68, whereas BOOTP operates on ports 53 and 54.",
+                "c": "DHCP allows for easier configuration and supports mobility, while BOOTP requires manual configuration.",
+                "d": "DHCP was developed after BOOTP and includes additional security features."
+            },
+            "correctAnswer": "c"
+        },
+        {
+            "question": "What is the role of DHCPACK in the DHCP process?",
+            "options": {
+                "a": "It discovers available DHCP servers on the network",
+                "b": "It acknowledges the receipt of an IP address by the DHCP client",
+                "c": "It requests an IP address from the DHCP server",
+                "d": "It offers IP addresses to DHCP clients"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "How does NTP hierarchy ensure accurate time synchronization?",
+            "options": {
+                "a": "By relying on a single time server for all network devices",
+                "b": "By using a distributed system of time servers organized in a hierarchical structure",
+                "c": "By synchronizing time with GPS satellites",
+                "d": "By periodically updating time settings on network devices"
+            },
+            "correctAnswer": "b"
+        },
+        {
+            "question": "What is the significance of Stratum 1 servers in the NTP hierarchy?",
+            "options": {
+                "a": "They are the highest stratum servers directly synchronized to an authoritative time source.",
+                "b": "They serve as backup servers in case primary NTP servers fail.",
+                "c": "They are used for load balancing time synchronization requests.",
+                "d": "They provide time synchronization to end-user devices directly."
+            },
+            "correctAnswer": "a"
+        },
+        {
+            "question": "What security concerns might arise if NTP synchronization is not properly configured?",
+            "options": {
+                "a": "Unauthorized access to critical network services",
+                "b": "Data loss due to time inconsistencies",
+                "c": "Exposure to timestamp manipulation attacks",
+                "d": "Increased vulnerability to DDoS attacks"
+            },
+            "correctAnswer": "c"
+        }
+    ]
+}

@@ -1,0 +1,356 @@
+{
+    "questions": [
+        {
+            "question": "A company uses a cloud-based payroll system. Which cloud computing technology is this company using?",
+            "options": {
+                "a": "browser as a service (BaaS)",
+                "b": "infrastructure as a service (IaaS)",
+                "c": "software as a service (SaaS)",
+                "d": "wireless as a service (WaaS)"
+            },
+            "answer": "c",
+            "explanation": "This item is based on information contained in the presentation. There is no such thing as BaaS. Infrastructure as a service (IaaS) is when key network devices such as routers and firewalls are leased from a provider. Wireless as a service (WaaS) is when a provider provides wireless connectivity at a fixed monthly cost."
+        },
+        {
+            "question": "For a data center what is the difference in the server virtualization data traffic compared with the traditional client-server model?",
+            "options": {
+                "a": "Data traffic from clients will be routed to multiple virtual servers.",
+                "b": "There are significant data exchanges between virtual servers.",
+                "c": "There is more data traffic flowing from virtual servers to clients.",
+                "d": "More network control traffic is generated between virtual servers and clients."
+            },
+            "answer": "b",
+            "explanation": "There are significant data exchanges between virtual servers, differing from the traditional client-server model which mainly involves direct communications between a single server and its clients."
+        },
+        {
+            "question": "Which component in a traditional infrastructure device provides Layer 2 and Layer 3 functions to create data paths within a network?",
+            "options": {
+                "a": "data plane",
+                "b": "control plane",
+                "c": "adjacency table",
+                "d": "forwarding information base"
+            },
+            "answer": "a",
+            "explanation": "The data plane is responsible for the actual forwarding of packets based on Layer 2 and Layer 3 functions, creating data paths within the network."
+        },
+        {
+            "question": "Which network traffic management technology is a basic element in SDN implementations?",
+            "options": {
+                "a": "OpenFlow",
+                "b": "OpenStack",
+                "c": "IEEE 802.1aq",
+                "d": "Interface to the Routing System"
+            },
+            "answer": "a",
+            "explanation": "OpenFlow was developed at Stanford University to manage traffic between routers switches and wireless access points and a controller. It is the original and widely implemented southbound API for SDN."
+        },
+        {
+            "question": "Which type of hypervisor would most likely be used in a data center?",
+            "options": {
+                "a": "Type 2",
+                "b": "Type 1",
+                "c": "Nexus",
+                "d": "Hadoop"
+            },
+            "answer": "b",
+            "explanation": "Type 1 hypervisors are usually used on enterprise servers, which are more likely to be found in a data center."
+        },
+        {
+            "question": "Which is a characteristic of a Type 1 hypervisor?",
+            "options": {
+                "a": "installed directly on a server",
+                "b": "best suited for consumers and not for an enterprise environment",
+                "c": "does not require management console software",
+                "d": "installed on an existing operating system"
+            },
+            "answer": "a",
+            "explanation": "Type 1 hypervisors are installed directly on a server and are known as “bare metal” solutions giving direct access to hardware resources. They also require a management console and are best suited for enterprise environments."
+        },
+        {
+            "question": "Which two layers of the OSI model are associated with SDN network control plane functions that make forwarding decisions? (Choose two.)",
+            "options": {
+                "a": "Layer 1",
+                "b": "Layer 2",
+                "c": "Layer 3",
+                "d": "Layer 4",
+                "e": "Layer 5"
+            },
+            "answer": [
+                "b",
+                "c"
+            ],
+            "explanation": "The SDN control plane uses the Layer 2 ARP table and the Layer 3 routing table to make decisions about forwarding traffic."
+        },
+        {
+            "question": "What pre-populates the FIB on Cisco devices that use CEF to process packets?",
+            "options": {
+                "a": "the routing table",
+                "b": "the adjacenc  y table",
+                "c": "the ARP table",
+                "d": "the DSP"
+            },
+            "answer": "a",
+            "explanation": "CEF uses the FIB and adjacency table to make fast forwarding decisions without control plane processing. The adjacency table is pre-populated by the ARP table and the FIB is pre-populated by the routing table."
+        },
+        {
+            "question": "What is a function of the data plane of a network device?",
+            "options": {
+                "a": "sending information to the CPU for processing",
+                "b": "building the routing table",
+                "c": "resolving MAC addresses",
+                "d": "forwarding traffic flows"
+            },
+            "answer": "d",
+            "explanation": "Networking devices operate in two planes; the data plane and the control plane. The control plane maintains Layer 2 and Layer 3 forwarding mechanisms using the CPU. The data plane forwards traffic flows."
+        },
+        {
+            "question": "Which statement describes the concept of cloud computing?",
+            "options": {
+                "a": "separation of application from hardware",
+                "b": "separation of management plane from control plane",
+                "c": "separation of operating system from hardware",
+                "d": "separation of control plane from data plane"
+            },
+            "answer": "a",
+            "explanation": "Cloud computing is used to separate the application or service from hardware. Virtualization separates the operating system from the hardware."
+        },
+        {
+            "question": "Which cloud model provides services for a specific organization or entity?",
+            "options": {
+                "a": "a public cloud",
+                "b": "a hybrid cloud",
+                "c": "a private cloud",
+                "d": "a community cloud"
+            },
+            "answer": "c",
+            "explanation": "Private clouds are used to provide services and applications to a specific organization and may be set up within the private network of the organization or managed by an outside organization."
+        },
+        {
+            "question": "What two benefits are gained when an organization adopts cloud computing and virtualization? (Choose two.)",
+            "options": {
+                "a": "provides a 'pay-as-you-go' model allowing organizations to treat computing and storage expenses as a utility",
+                "b": "enables rapid responses to increasing data volume requirements",
+                "c": "distributed processing of large data sets in the size of terabytes",
+                "d": "elimination of vulnerabilities to cyber attacks",
+                "e": "increases the dependence on onsite IT resources"
+            },
+            "answer": [
+                "a",
+                "b"
+            ],
+            "explanation": "Organizations can use virtualization to consolidate the number of required servers by running many virtual servers on a single physical server. Cloud computing allows organizations to scale their solutions as required and to pay only for the resources they require."
+        },
+        {
+            "question": "Which type of Hypervisor is implemented when a user with a laptop running the Mac OS installs a Windows virtual OS instance?",
+            "options": {
+                "a": "type 2",
+                "b": "virtual machine",
+                "c": "type 1",
+                "d": "bare metal"
+            },
+            "answer": "a",
+            "explanation": "Type 2 hypervisors also know as hosted hypervisors are installed on top of an existing operating system such as Mac OS Windows or Linux."
+        },
+        {
+            "question": "A small company is considering moving many of its data center functions to the cloud. What are three advantages of this plan? (Choose three.)",
+            "options": {
+                "a": "The company only needs to pay for the amount of processing and storage capacity that it uses.",
+                "b": "Cloud services are billed at a fixed fee no matter how much processing and storage are used by the company.",
+                "c": "The company does not need to be concerned about how to handle increasing data storage and processing demands with in-house data center equipment.",
+                "d": "The company can increase processing and storage capacity as needed and then decrease capacity when it is no longer needed.",
+                "e": "Single-tenant data centers can easily grow to accommodate increasing data storage requirements.",
+                "f": "Cloud services enable the company to own and administer its own servers and storage devices."
+            },
+            "answer": [
+                "a",
+                "c",
+                "d"
+            ],
+            "explanation": "Cloud computing offers many advantages to the company. Since the cloud data storage and processing facilities are owned by third-parties, the company does not need to be concerned about how it will handle increasing data storage and processing demands with its own data center equipment. The company can easily increase or decrease processing power and storage capacity based on need. Also, cloud services are billed by usage, so the company does not have the costs of supporting its own expensive data center that is not always used to maximum capacity."
+        },
+        {
+            "question": "How does virtualization help with disaster recovery within a data center?",
+            "options": {
+                "a": "support of live migration",
+                "b": "guarantee of power",
+                "c": "improvement of business practices",
+                "d": "supply of consistent air flow"
+            },
+            "answer": "a",
+            "explanation": "Live migration allows moving of one virtual server to another virtual server that could be in a different location that is some distance from the original data center."
+        },
+        {
+            "question": "What technology allows users to access data anywhere and at any time?",
+            "options": {
+                "a": "Cloud computing",
+                "b": "virtualization",
+                "c": "micromarketing",
+                "d": "data analytics"
+            },
+            "answer": "a",
+            "explanation": "Cloud computing allows organizations to eliminate the need for on-site IT equipment, maintenance, and management. Cloud computing allows organizations to expand their services or capabilities while avoiding the increased costs of energy and space."
+        },
+        {
+            "question": "Which action takes place in the assurance element of the IBN model?",
+            "options": {
+                "a": "verification and corrective action",
+                "b": "configuring systems",
+                "c": "translation of policies",
+                "d": "integrity checks"
+            },
+            "answer": "a",
+            "explanation": "The assurance element of the IBN model is concerned with end-to-end verification of network-wide behavior."
+        },
+        {
+            "question": "Refer to the exhibit. Which data format is used to represent the data for network automation applications?",
+            "options": {
+                "a": "XML",
+                "b": "YAML",
+                "c": "HTML",
+                "d": "JSON"
+            },
+            "answer": "d",
+            "explanation": "The common data formats that are used in many applications including network automation and programmability are JavaScript Object Notation (JSON), eXtensible Markup Language (XML), and YAML Ain’t Markup Language (YAML). JSON data is enclosed in braces with key/value pairs."
+        },
+        {
+            "question": "What is the function of the key contained in most RESTful APIs?",
+            "options": {
+                "a": "It is the top-level object of the API query.",
+                "b": "It is used to authenticate the requesting source.",
+                "c": "It represents the main query components in the API request.",
+                "d": "It is used in the encryption of the message by an API request."
+            },
+            "answer": "b",
+            "explanation": "Many RESTful APIs, including public APIs, require a key. The key is used to identify the source of the request through authentication."
+        },
+        {
+            "question": "Which two configuration management tools are developed using Ruby? (Choose two.)",
+            "options": {
+                "a": "Puppet",
+                "b": "Ansible",
+                "c": "SaltStack",
+                "d": "Chef",
+                "e": "RESTCONF"
+            },
+            "answer": [
+                "a",
+                "d"
+            ],
+            "explanation": "Chef and Puppet are configuration management tools developed using Ruby. Ansible and SaltStack are developed using Python. Ruby is typically considered a more difficult language to learn than Python. RESTCONF is a network management protocol."
+        },
+        {
+            "question": "Which term is used to describe a set of instructions for execution by the configuration management tool Puppet?",
+            "options": {
+                "a": "Playbook",
+                "b": "Cookbook",
+                "c": "Manifest",
+                "d": "Pillar"
+            },
+            "answer": "c",
+            "explanation": "The configuration management tool Puppet uses the name Manifest to describe the set of instructions to be executed."
+        },
+        {
+            "question": "Which term is used to describe a set of instructions for execution by the configuration management tool SaltStack?",
+            "options": {
+                "a": "Cookbook",
+                "b": "Manifest",
+                "c": "Pillar",
+                "d": "Playbook"
+            },
+            "answer": "c",
+            "explanation": "The configuration management tool SaltStack uses the name Pillar to describe the set of instructions to be executed."
+        },
+        {
+            "question": "Which scenario describes the use of a public API?",
+            "options": {
+                "a": "It requires a license.",
+                "b": "It can be used with no restrictions.",
+                "c": "It is used between a company and its business partners.",
+                "d": "It is used only within an organization."
+            },
+            "answer": "b",
+            "explanation": "Public or open APIs have no restrictions and are available to the public. Some API providers do require a user to obtain a free key or token prior to using the API in order to control the volume of API requests received and processed."
+        },
+        {
+            "question": "What is YAML?",
+            "options": {
+                "a": "It is a scripting language.",
+                "b": "It is a data format and superset of JSON.",
+                "c": "It is a compiled programming language.",
+                "d": "It is a web application."
+            },
+            "answer": "b",
+            "explanation": "Like JSON, YAML Ain’t Markup Language (YAML) is a data format used by applications to store and transport data. YAML is considered a superset of JSON."
+        },
+        {
+            "question": "Which RESTFul operation corresponds to the HTTP GET method?",
+            "options": {
+                "a": "post",
+                "b": "patch",
+                "c": "update",
+                "d": "read"
+            },
+            "answer": "d",
+            "explanation": "RESTful operations correspond to the following HTTP methods (shown to the left with the RESTful operation on the right): POST > Create, GET > Read, PUT/PATCH > Update, DELETE > Delete."
+        },
+        {
+            "question": "Which technology virtualizes the network control plane and moves it to a centralized controller?",
+            "options": {
+                "a": "SDN",
+                "b": "fog computing",
+                "c": "cloud computing",
+                "d": "IaaS"
+            },
+            "answer": "a",
+            "explanation": "SDN virtualizes the control plane and moves it to a centralized network controller."
+        },
+        {
+            "question": "What are two functions of hypervisors? (Choose two.)",
+            "options": {
+                "a": "to partition the hard drive to run virtual machines",
+                "b": "to manage virtual machines",
+                "c": "to protect the host from malware infection from the virtual machines",
+                "d": "to share the antivirus software across the virtual machines",
+                "e": "to allocate physical system resources to virtual machines"
+            },
+            "answer": [
+                "b",
+                "e"
+            ],
+            "explanation": "The hypervisor creates and manages virtual machines on a host computer and allocates physical system resources to them."
+        },
+        {
+            "question": "What is a difference between the functions of Cloud computing and virtualization?",
+            "options": {
+                "a": "Cloud computing requires hypervisor technology whereas virtualization is a fault tolerance technology.",
+                "b": "Cloud computing separates the application from the hardware whereas virtualization separates the OS from the underlying hardware.",
+                "c": "Cloud computing provides services on web-based access whereas virtualization provides services on data access through virtualized Internet connections.",
+                "d": "Cloud computing utilizes data center technology whereas virtualization is not used in data centers."
+            },
+            "answer": "b",
+            "explanation": "Cloud computing separates the application from the hardware, while virtualization separates the OS from the underlying hardware."
+        },
+        {
+            "question": "How is the YAML data format structure different from JSON?",
+            "options": {
+                "a": "It uses indentations.",
+                "b": "It uses end tags.",
+                "c": "It uses hierarchical levels of nesting.",
+                "d": "It uses brackets and commas."
+            },
+            "answer": "a",
+            "explanation": "The structure in YAML is defined by indentations rather than brackets and commas, distinguishing it from JSON."
+        },
+        {
+            "question": "What is the most widely used API for web services?",
+            "options": {
+                "a": "XML-RPC",
+                "b": "SOAP",
+                "c": "JSON-RPC",
+                "d": "REST"
+            },
+            "answer": "d",
+            "explanation": "REST accounts for more than 80% of all API types used for web services, making it the most widely used web service API."
+        }
+    ]
+}
