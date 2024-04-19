@@ -125,7 +125,7 @@ header {
 }
 
 .options input[type="radio"]{
-  
+  display: none;
 }
 
 .options input[type="radio"]:checked + label {
