@@ -149,52 +149,44 @@ function buildQuiz(startIndex, endIndex) {
     .getQuestions()
     .slice(startIndex, endIndex);
 
-  questionsToShow.forEach((currentQuestion, questionNumber) => {
-    const options = [];
-
-    if (currentQuestion.question.trim()) {
-      let questionHtml = `<div class="question-container">
-                            <div class="question">${currentQuestion.question}</div>`;
-
-      for (let letter in currentQuestion.options) {
-        if (currentQuestion.options[letter].trim()) {
-          options.push(
-            `<label>
-                <input type="radio" id="question${
-                  startIndex + questionNumber
-                }_${letter}" 
-                       name="question${
-                         startIndex + questionNumber
-                       }" value="${letter}">
-                ${letter} : ${currentQuestion.options[letter]}
-              </label>`
-          );
+    questionsToShow.forEach((currentQuestion, questionNumber) => {
+      const options = [];
+  
+      if (currentQuestion.question.trim()) {
+        let questionHtml = `<div class="question-container">
+                              <div class="question">${currentQuestion.question}</div>`;
+  
+        for (let letter in currentQuestion.options) {
+          if (currentQuestion.options[letter].trim()) {
+            options.push(
+              `<input type="radio" id="question${startIndex + questionNumber}_${letter}" 
+                      name="question${startIndex + questionNumber}" value="${letter}">
+               <label for="question${startIndex + questionNumber}_${letter}">
+                  ${letter} : ${currentQuestion.options[letter]}
+               </label>`
+            );
+          }
         }
+  
+        if (options.length > 0) {
+          questionHtml += `<div class="options">${options.join("")}</div>`;
+        }
+  
+        // Add explanation if it exists
+        if (currentQuestion.explanation && currentQuestion.explanation.trim() !== "") {
+          questionHtml += `<div class="explanation hidden">${currentQuestion.explanation}</div>`;
+        }
+  
+        // Add Image if it exists
+        if (currentQuestion.image && currentQuestion.image.trim() !== "") {
+          questionHtml = `<img class="images" src="${currentQuestion.image}" />` + questionHtml;
+        }
+  
+        questionHtml += `</div>`; // Close the question-container div
+        output.push(questionHtml);
       }
-
-      if (options.length > 0) {
-        questionHtml += `<div class="options">${options.join("")}</div>`;
-      }
-
-      // Add explanation if it exists
-      if (
-        currentQuestion.explanation &&
-        currentQuestion.explanation.trim() !== ""
-      ) {
-        questionHtml += `<div class="explanation hidden">${currentQuestion.explanation}</div>`;
-      }
-
-      // Add Image if it exists
-      if (currentQuestion.image && currentQuestion.image.trim() !== "") {
-        questionHtml =
-          `<img class="images" src="${currentQuestion.image}" />` +
-          questionHtml;
-      }
-
-      questionHtml += `</div>`; // Close the question-container div
-      output.push(questionHtml);
-    }
   });
+  
 
   quizContainer.innerHTML = output.join("");
   submitButton.classList.remove("hidden");
