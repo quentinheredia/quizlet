@@ -330,7 +330,7 @@ if (submitButton && nextButton) {
   async function initializeQuiz() {
     // Put the quiz .json filename here
     // Quiz Name
-    const loadedQuestions = await loadQuizFromJSON(NET2007);
+    const loadedQuestions = await loadQuizFromJSON(NET2012);
     console.log(loadedQuestions);
     currentQuestionIndex = startIndex;
     console.log("Currently on Question: ", currentQuestionIndex);
