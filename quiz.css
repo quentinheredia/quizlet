@@ -1,0 +1,262 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark grey text for better readability */
+}
+
+header {
+  background-color: #003366; /* A nice dark blue */
+  color: #ffffff; /* White text for contrast */
+  padding: 20px 0; /* Padding for spacing */
+  text-align: center; /* Centering the text */
+  padding-bottom: 0.1%;
+  
+}
+
+#course {
+  margin-top: 10px; /* Space from the options */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  background-color: #e9f5ff; /* Light blue background for the bubble */
+  border-radius: 15px; /* Rounded corners for bubble effect */
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#exam-type {
+  margin-top: 10px; /* Space from the options */
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+  background-color: #e9f5ff; /* Light blue background for the bubble */
+  border-radius: 15px; /* Rounded corners for bubble effect */
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+#sections {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  font-size: 1em; /* Standard font size for sections */
+  font-weight: normal; /* Normal font weight */
+  background-color: #e9f5ff;
+  color: #333;
+  margin-top: 10px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Input box styles */
+.input-box {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.input-box label {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.input-box input {
+  font-size: 1em;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Quiz container and question styles */
+#quiz {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr)); /* This will create as many columns as can fit, with a minimum size for each card */
+  align-items: stretch;
+  gap: 10px; /* Adjust the space between cards */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.question-container {
+  border: 2px solid #5CACEE; /* Adjust color and width as desired */
+  border-radius: 5px; /* Rounded corners for the border */
+  padding: 10px; /* Spacing inside the container */
+  margin-bottom: 20px; /* Spacing between each question container */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.question {
+  background-color: #e9e9e9;
+  border-left: 5px solid #5CACEE;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Optional: adds a subtle shadow to each card */
+}
+
+.options label {
+  display: block;
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+
+.options label:hover {
+  background-color: #5CACEE;
+}
+
+.options input[type="radio"]{
+  display: none;
+}
+
+.options input[type="radio"]:checked + label {
+  border: 2px solid #5CACEE;
+} 
+
+.images {
+  width: 90%;
+  margin-left: 5%;
+  border: 2px solid #5CACEE;
+}
+
+/* Button styles */
+button {
+  background-color: #5CACEE;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1em;
+  margin: 5px;
+}
+
+button:hover {
+  background-color: #4C96DD;
+}
+
+.question-count-buttons {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.question-count-btn {
+  background-color: #5CACEE;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.question-count-btn:hover {
+  background-color: #4C96DD;
+}
+
+.question-count-btn.active {
+  background-color: #003366; /* A darker blue to indicate active state */
+}
+
+
+/* Results container styles */
+#results {
+  text-align: center;
+  padding: 20px;
+  font-size: 1.2em;
+  color: #333;
+}
+
+/* Ensure hidden class truly hides elements */
+.hidden {
+  display: none !important;
+}
+
+.explanation {
+  margin-top: 10px; /* Space from the options */
+  padding: 10px;
+  background-color: #e9f5ff; /* Light blue background for the bubble */
+  border-radius: 15px; /* Rounded corners for bubble effect */
+  border: 2px solid #5CACEE; /* A border to match the quiz theme */
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  position: relative; /* For pseudo-element positioning */
+  font-style: italic;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.explanation:before { /* This pseudo-element is used to create the 'tail' of the bubble */
+  content: '';
+  position: absolute;
+  bottom: 100%; /* Position just above the bottom of the bubble */
+  left: 20px; /* Adjust this to move the tail left/right */
+  border-width: 10px; /* Adjusts the size of the tail */
+  border-style: solid;
+  border-color: transparent transparent #5CACEE transparent; /* Only the bottom border is colored */
+}
+
+
+/*Menu Items for Master Menu*/
+
+#mastermenu {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2); /* Soft shadow for depth */
+  font-size: 1em; /* Standard font size for sections */
+  font-weight: normal; /* Normal font weight */
+  background-color: #e9f5ff;
+  color: #333;
+  margin-top: 1%; 
+  margin-bottom: 2.5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+#menuitem {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.2);
+  background-color: #003366;
+  color:#e9f5ff;
+  padding: 1%;
+  text-align: center;
+}
+
+#menulink {
+  color:#e9f5ff;
+}
+
+#menuitem:hover {
+  background-color: #eeeeee;
+  color: #003366;
+}
