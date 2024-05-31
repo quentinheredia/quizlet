@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NET Practice</title>
+    <link rel="stylesheet" type="text/css" href="quiz.css" />
+  </head>
+  <body class="body">
+    <!-- Title Section -->
+    <header>
+      <menu id="mastermenu">
+        <button id="menuitem">Course Database</button>
+        <button id="menuitem" onclick="navigateTo('NET2012EXAM.html')">
+          Quizzes
+        </button>
+        <button id="menuitem">Test Practice</button>
+        <button id="menuitem">Exam Practice</button>
+        <button id="menuitem">Create Your Own Quiz</button>
+      </menu>
+      <hr />
+      <h1 id="course">NET2012 - Network Technology And Automations</h1>
+      <h2 id="exam-type">Type: EXAM-REVIEW</h2>
+      <h3 id="sections">Covers: All Weeks, Labs and Quizzes</h3>
+    </header>
+
+    <hr />
+    <!-- Input Controls -->
+    <div class="input-controls">
+      <!-- Questions Per Page -->
+      <!-- Preset Buttons for Questions Per Page -->
+      <div class="question-count-buttons">
+        <button type="button" class="question-count-btn" data-count="1">
+          Show 1 Question
+        </button>
+        <button type="button" class="question-count-btn" data-count="5">
+          Show 5 Questions
+        </button>
+        <button type="button" class="question-count-btn" data-count="10">
+          Show 10 Questions
+        </button>
+        <button type="button" class="question-count-btn" data-count="MAX">
+          Show All
+        </button>
+        <!-- Add more buttons as needed -->
+      </div>
+    </div>
+    <hr />
+
+    <!-- Quiz Section -->
+    <main>
+      <form id="quiz"></form>
+      <div class="buttons">
+        <button id="submit" class="hidden">Submit Answer</button>
+        <button id="next" class="hidden">Next</button>
+        <button id="reset">Reset Quiz</button>
+      </div>
+      <div id="results"></div>
+    </main>
+
+    <!-- JavaScript File -->
+    <script src="quizLogic.js"></script>
+  </body>
+</html>
